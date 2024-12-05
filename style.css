@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ 
+ 
+ *{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-content{
+  background-image: url(image/gb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  width: 100%;
+}
+.wrapper{
+  max-width: 1350px;
+  width: 100%;
+  padding: 0 10px 0 10px;
+}
+.menu {
+  background-color: rgb(171, 192, 194);
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.nav ul{
+  display: flex; 
+}
+.nav ul li {
+  padding: 0 10px 0 10px;
+}
+.nav ul li a {
+  font-size: 30px;
+  color: black;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav ul li a:hover {
+  text-decoration: underline;
+  color: #6054df;
+}
+.nav .navlogo img{
+  max-width: 190px;
+  height: 170px;
+}
+#main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.author {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.author img{
+  max-width: 700px;
+  width: 100%;
+  height:700px;
+}
+.media {
+  width: 40%;
+}
+.media ul li a img {
+  max-width: 40px;
+  height: 40px;
+}
+.media ul {
+  text-align: right;
+  display: flex;
+  margin: 20px 0 20px 0;
+}
+
+.media ul li {
+  padding: 0 10px 0 10px;
+}
+.about {
+  width: 40%;
+  padding: 20px;
+}
+.about h1 {
+  font-size: 80px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+}
+.about h1 span {
+  color: #479ce2;
+}
+.about h3{
+  font-size: 60px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+}
+.about p{
+  padding-top: 20px;
+  font-size: 23px;
+  font-style: normal;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+}
+
+.botton button {
+  height: 45px;
+  width: 170px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.botton button:hover {
+  color: #090442;
+  background-color: #6054df;
+}
+#services {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(image/gb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 35px;
+}
+.serv h2 {
+  font-size: 70px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #ffff;
+}
+.serv h4 {
+  font-size: 40px;
+  padding: 20px 0;
+  color: #ffff;
+}
+
+.serv li {
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+}
+div#skills{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(image/gb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 35px;
+}
+#skills h4 {
+  font-size: 40px;
+  padding: 20px 0;
+  color: #ffff;
+}
+
+#skills h2 {
+  font-size: 70px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #ffff;
+}
+.program ul li {
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+}
+#education {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background-image: url(image/gb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 35px;
+  flex-direction: column;
+}
+#education h2 {
+  font-size: 70px;
+  text-align: center;
+  padding: 20px 0 60px 0;
+  color: #ffff;
+}
+
+#education  ul li {
+  font-size: 20px;
+  color: #ffff;
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+#education .educ ul li{
+  text-align: center;
+}
+#education ul li a:hover {
+  color: #479ce2;
+}
+.contact h3 {
+  font-size: 30px;
+  color: #ffff;
+}
+.contact ul li a{ 
+  font-size: 20px;
+  color: #ffff;
+ 
+}
+.contact {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact img{
+  max-width: 180px;
+  height: 180px;
+}     
+
+@media screen and (min-width: 1200px) {
+  .about h1 {
+    font-size: 50px;
+  }
+  .about h3 {
+    font-size: 50px;
+  }
+  .about p {
+    font-size: 18px;
+  }
+  #main {
+    height: 100%;
+  }
+  .serv h2 {
+    font-size: 60px;
+  }
+  .serv h4 {
+    font-size: 30px;
+    padding: 12px 0;
+  }
+  .serv li {
+    font-size: 18px;
+  }
+  #services {
+    line-height: 34px;
+  }
+  div#skills {
+    line-height: 29px;
+  }
+  #skills h4 {
+    font-size: 30px;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .about h1{
+    font-size: 45px;
+  }
+  .about h3 {
+    font-size: 45px;
+  }
+  .about p {
+    font-size: 18px;
+  }
+  .author img {
+    height: 600px;
+  }
+  #services {
+    line-height: 26px;
+  }
+  .serv h2 {
+    font-size: 45px;
+  }
+  .serv h4 {
+    font-size: 30px;
+  }
+  .serv li {
+    font-size: 17px;
+  }
+  #skills h2 {
+    font-size: 45px;
+  }
+  div#skills{
+    line-height: 25px;
+  }
+  #skills h4 {
+    font-size: 30px;
+  }
+  .program ul li {
+    font-size: 18px;
+  }
+  #education h2 {
+    font-size: 60px;
+  }
+  #education ul li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .about h1 {
+    font-size: 50px; 
+    
+  }
+  .about h3 {
+    font-size: 50px;
+  }
+  .about p {
+    padding-top: 16px; 
+  }
+  .author img {
+    height: 500px;
+  }
+  .about {
+    width: 50%;
+  }
+  
+  .serv h2 {
+    font-size: 45px; 
+  }
+  .serv h4 {
+    font-size: 35px; 
+  }
+  #services {
+    line-height: 22px;
+    padding: 20px;
+  }
+  .serv h4 {
+    font-size: 30px;
+  }
+  .serv li {
+    font-size: 18px;
+  }
+  #skills h2 {
+    font-size: 45px;
+  }
+  div#skills {
+    line-height: 22px;
+    padding: 20px;
+  }
+  #skills h4 {
+    font-size: 35px;
+  }
+  .program ul li {
+    font-size: 17px;
+  }
+  #education h2 {
+    font-size: 50px;
+  }
+  #education ul li {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #main {
+    align-items: center;
+  }
+  
+  .about h1 {
+    font-size: 45px;
+  }
+  .about h3 {
+    font-size: 45px;
+  }
+  .about p {
+    font-size: 16px;
+  }
+  .author img {
+    height: 558px;
+  }
+  .serv h2 {
+    font-size: 40px;
+  }
+  #services{
+    line-height: 20px;
+    padding: 20px;
+  }
+  .serv h4 {
+    font-size: 30px;
+  }
+  .serv li {
+    font-size: 18px;
+  }
+  #skills h2 {
+    font-size: 40px;
+  }
+  div#skills {
+    line-height: 20px;
+    padding: 20px;
+  }
+  #skills h4 {
+    font-size: 30px;
+  }
+  .program ul li {
+    font-size: 18px;
+  }
+  #education h2 {
+    font-size: 50px;
+  }
+  #education ul li {
+    font-size: 17px;
+  }
+
+}
+@media screen and (min-width: 800px) {
+  .about h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .about h3 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .about p {
+    font-size: 16px;
+    padding: 20px;
+  }
+  .author img {
+    height: 100%;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .about {
+    width: 100%;
+  }
+  #main {
+    height: 100%;
+  }
+  .media {
+    width: 100%;
+    text-align: center;
+  }
+  .media ul {
+    justify-content: center;
+  }
+  #services {
+    line-height: 20px;
+  }
+  .serv h2 {
+    font-size: 45px;
+  }
+  .serv h4 {
+    font-size: 30px;
+  }
+  .serv li {
+    font-size: 16px;
+  }
+  div#skills {
+    line-height: 20px;
+  }
+  #skills h2 {
+    font-size: 45px;
+  }
+  #skills h4 {
+    font-size: 30px;
+  }
+  .program ul li {
+    font-size: 16px;
+  }
+  #education h2 {
+    font-size: 45px;
+  }
+  #education ul li {
+    font-size: 16px;
+  }
+  .educ {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .nav ul li a {
+    font-size: 20px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .author img {
+    height: 100%;
+  }
+  .about h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .about h3 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .about {
+    width: 100%;
+    padding: 20px;
+  }
+  .about p {
+    font-size: 16px;
+    padding: 20px;
+  }
+  #main{
+    display: block;
+    height: 100%;
+  }
+  .media {
+    width: 100%;
+    text-align: center;
+  }
+  .media ul {
+    justify-content: center;
+  }
+  div#skills {
+    height: 100%;
+    line-height: 20px;
+  }
+  #skills h2 {
+    font-size: 45px
+  }
+  #skills h4 {
+    font-size: 25px;
+  }
+  .program ul li {
+    font-size: 16px;
+  }
+  #education h2 {
+    font-size: 34px;}
+
+}
